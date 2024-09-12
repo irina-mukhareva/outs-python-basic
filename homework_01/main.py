@@ -3,6 +3,10 @@
 Функции и структуры данных
 """
 
+# filter types
+ODD = "odd"
+EVEN = "even"
+PRIME = "prime"
 
 def power_numbers(*numbers):
     return [n ** 2 for n in numbers]
@@ -12,12 +16,6 @@ def power_numbers(*numbers):
     >>> power_numbers(1, 2, 5, 7)
     <<< [1, 4, 25, 49]
     """
-
-
-# filter types
-ODD = "odd"
-EVEN = "even"
-PRIME = "prime"
 
 def filter_is_odd(n):
     if n % 2 != 0:
